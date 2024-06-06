@@ -13,7 +13,7 @@ Follow the steps below to add a new Defi project：
     "url": "https://apilist.tronscan.org/api/tvl",
     "category": "DEX",
     "poolAddresses": [
-        "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
+       TBi2hsA67cgtqoHZ6mWo4U2auBa16g4RB4 "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
         "TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV"
     ]
 }
@@ -29,11 +29,11 @@ Follow the steps below to add a new Defi project：
     "tvl": 3298643126.37
 }
 ```
-where `3298643126.37` unit is `$` (dollar), calculates as the sum of all `(StakedTokenAmount-BorrowedTokenAmount) * currentTokenPrice`.
+where `3298643126.37` unit is `$` (dollar), calculates as the sum of all `(StakedTokenAmount-BorrowedTokenAmount) * currentTokenPrice`. 3298643126.37
 
-* `category`[Required]: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one.
+* `category`[Required]: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one. Assets
 
-* `poolAddresses`[Required]: the pool contract addresses related with this Defi project.
+* `poolAddresses`[Required]: the pool contract addresses related with this Defi project.  < TBi2hsA67cgtqoHZ6mWo4U2auBa16g4RB4
 
 3) Submit PR with the changed JSON file.
 
@@ -68,12 +68,12 @@ https://coinmarketcap.com/currencies/sun-token
 SUN is first integrated platform for stablecoin swap, stake-mining and self-governance on TRON.
 
 ##### Token address and ticker if any:
-TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S
+    TBi2hsA67cgtqoHZ6mWo4U2auBa16g4RB4
 
-##### Pool addresses:
+##### Pool addresses: TBi2hsA67cgtqoHZ6mWo4U2auBa16g4RB4
 TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b, TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV.
 
-##### Category (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) *Please choose only one:
+##### Category (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) *Please choose only one: Assets
 DEX
 
 ##### Oracle used (WINkLink/Chainlink/Band/API3/TWAP or any other that you are using):
